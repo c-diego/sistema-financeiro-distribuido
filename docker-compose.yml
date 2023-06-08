@@ -1,0 +1,10 @@
+version: "3"
+services:
+  rabbitmq:
+    image: rabbitmq:3.7.8-management
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+    environment:
+      - RABBITMQ_DEFAULT_USER=tsi
+      - RABBITMQ_DEFAULT_PASS=tsi
