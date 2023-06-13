@@ -4,7 +4,6 @@ import java.util.List;
 
 
 import org.springframework.amqp.core.AmqpAdmin;
-import org.springframework.amqp.core.FanoutExchange;
 import org.springframework.amqp.core.Queue;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -15,7 +14,7 @@ import org.springframework.context.annotation.ComponentScan;
 import jakarta.annotation.PostConstruct;
 
 @SpringBootApplication
-@ComponentScan("br.edu.utfpr.td.tsi.main")
+@ComponentScan("br.edu.utfpr.td.tsi.transaction")
 public class TransacoesProducerApp {
 
 	@Autowired
