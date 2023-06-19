@@ -1,1 +1,3 @@
-/home/andre/Documents/Dropbox/Disciplinas-TSI/5_semestre/TÓPICOS AVANÇADOS EM TECNOLOGIA DA INFORMAÇÃO/sistema-financeiro-distribuido/sistema_produtor/src/main/java/br/edu/utfpr/td/tsi/main/Main.java
+/home/andre/Documents/Dropbox/Disciplinas-TSI/5_semestre/TÓPICOS AVANÇADOS EM TECNOLOGIA DA INFORMAÇÃO/sistema-financeiro-distribuido/sistema_produtor/src/main/java/br/edu/utfpr/td/tsi/transaction/LeitorArquivo.java
+/home/andre/Documents/Dropbox/Disciplinas-TSI/5_semestre/TÓPICOS AVANÇADOS EM TECNOLOGIA DA INFORMAÇÃO/sistema-financeiro-distribuido/sistema_produtor/src/main/java/br/edu/utfpr/td/tsi/transaction/TransacoesProducerApp.java
+/home/andre/Documents/Dropbox/Disciplinas-TSI/5_semestre/TÓPICOS AVANÇADOS EM TECNOLOGIA DA INFORMAÇÃO/sistema-financeiro-distribuido/sistema_produtor/src/main/java/br/edu/utfpr/td/tsi/transaction/Transacao.java
