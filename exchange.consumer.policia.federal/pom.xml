@@ -3,7 +3,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>br.edu.utfpr.td.cotsi</groupId>
-	<artifactId>exchange.consumer.fila1</artifactId>
+	<artifactId>exchange.consumer.policia.federal</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<parent>
 		<groupId>org.springframework.boot</groupId>
