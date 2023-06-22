@@ -25,7 +25,7 @@ public class LeitorArquivo {
 			    String cedente = record.get("cedente");
 			    String pagador = record.get("pagador");
 			    Double valor = Double.valueOf(record.get("valor"));	
-			    String vencimento = record.get("vencimento");	
+			    String vencimento = record.get("vencimento");
 			    
 			    Transacao t = new Transacao(codigo, cedente, pagador, valor, vencimento);
 			    transacoes.add(t);
