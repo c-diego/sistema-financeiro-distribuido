@@ -22,7 +22,7 @@ public class ExchangeConsumerApp {
 
 	@PostConstruct
 	public void configurarCanais() {
-		Queue fila1 = new Queue("exemplo.exchange.fila1", true);
+		Queue fila1 = new Queue("policia.federal", true);
 		amqpAdmin.declareQueue(fila1);		
 	}
 }

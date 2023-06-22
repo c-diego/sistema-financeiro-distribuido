@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class Listener {
 
-	@RabbitListener(queues = "exemplo.exchange.fila2")
+	@RabbitListener(queues = "receita.federal")
 	public void listen(String in) {
 		System.out.println(in);
 	}

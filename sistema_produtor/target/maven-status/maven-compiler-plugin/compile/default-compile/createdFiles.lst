@@ -1,0 +1,3 @@
+br/edu/utfpr/td/tsi/transaction/Transacao.class
+br/edu/utfpr/td/tsi/transaction/TransacoesProducerApp.class
+br/edu/utfpr/td/tsi/transaction/LeitorArquivo.class
