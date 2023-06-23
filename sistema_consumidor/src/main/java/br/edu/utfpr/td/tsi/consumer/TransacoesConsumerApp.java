@@ -1,36 +1,23 @@
 package br.edu.utfpr.td.tsi.consumer;
 
-import org.springframework.amqp.core.AmqpAdmin;
-import org.springframework.amqp.core.Queue;
-import org.springframework.amqp.rabbit.core.RabbitTemplate;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 
-import jakarta.annotation.PostConstruct;
+import com.google.gson.Gson;
 
 @SpringBootApplication
 @ComponentScan("br.edu.utfpr.td.tsi.consumer")
 public class TransacoesConsumerApp {
 
-	@Autowired
-	private AmqpAdmin amqpAdmin;
-
-	@Autowired
-	private RabbitTemplate rabbitTemplate;
-
-	private Queue filaTransacoes;
+	@Bean
+	public Gson gson() {
+		return new Gson();
+	}
 
 	public static void main(String[] args) throws Exception {
 		SpringApplication.run(TransacoesConsumerApp.class, args);
 	}
-
-	@PostConstruct
-	public void criarFila() {
-		filaTransacoes = new Queue("transacoes.financeiras", true);
-		amqpAdmin.declareQueue(filaTransacoes);		
-	}
-
 	
 }
