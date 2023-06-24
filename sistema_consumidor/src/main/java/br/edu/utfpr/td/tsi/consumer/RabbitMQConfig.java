@@ -29,7 +29,7 @@ public class RabbitMQConfig {
                 true,
                 false);
 
-		amqpAdmin.declareExchange(fanout);
+        amqpAdmin.declareExchange(fanout);
 
         return fanout;
     }
